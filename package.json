@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass public/style.scss public/style.css",
+    "dev-sass": "sass public/style.scss public/style.css --watch",
+    "dev-http-server": "http-server --watch",
+    "dev": "npm run dev-http-server && npm run dev-sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3"
+  }
+}
